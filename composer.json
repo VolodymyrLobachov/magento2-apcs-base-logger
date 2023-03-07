@@ -1,6 +1,6 @@
 {
     "name": "apcs/base-logger",
-    "description":"This is a dependency for modules from APCS",
+    "description":"This module is required for APCS modules",
     "keywords": [
         "magento 2",
         "magento 2 extension",
@@ -11,7 +11,7 @@
         "magento/framework": ">=100.1.*"
     },
     "type": "magento2-module",
-    "version": "2.0",
+    "version": "1.0",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
