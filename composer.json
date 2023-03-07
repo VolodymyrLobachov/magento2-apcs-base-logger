@@ -1,0 +1,34 @@
+{
+    "name": "apcs/base-logger",
+    "description":"This is a dependency for modules from APCS",
+    "keywords": [
+        "magento 2",
+        "magento 2 extension",
+        "APCS Lgger"
+    ],
+    "require": {
+        "php": ">=7.1",
+        "magento/framework": ">=100.1.*"
+    },
+    "type": "magento2-module",
+    "version": "2.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Volodymyr Lobachov",
+            "email": "volodymyr.lobachov@gmail.com",
+            "role": "Magento 2 Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "APCS\\BaseLogger\\": ""
+        }
+    }
+}
