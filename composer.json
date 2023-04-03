@@ -7,6 +7,7 @@
         "APCS Logger"
     ],
     "require": {
+        "composer-plugin-api": "^1.0.0 || ^2.0.0",
         "php": ">=7.1",
         "magento/framework": ">=100.1.0"
     },
