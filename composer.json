@@ -4,7 +4,7 @@
     "keywords": [
         "magento 2",
         "magento 2 extension",
-        "APCS Lgger"
+        "APCS Logger"
     ],
     "require": {
         "php": ">=7.1",
@@ -28,6 +28,11 @@
         ],
         "psr-4": {
             "APCS\\BaseLogger\\": ""
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.1.0"
         }
     }
 }
